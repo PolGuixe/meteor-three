@@ -8,6 +8,7 @@ Package.describe({
 Package.on_use(function(api) {
 	api.versionsFrom("0.9.0");
 	api.export("THREE");
+    api.export("ThreeBSP");
 
 	api.add_files([
 		// Core
@@ -90,6 +91,10 @@ Package.on_use(function(api) {
 		"extras/shaders/VignetteShader.js",
 
 		// THREE.Projector is now here.
-		"extras/renderers/Projector.js"
+		"extras/renderers/Projector.js",
+      
+        //Geometry modifiers
+        "extras/geometry/ThreeCSG.js"
+      
 	]);
 });
