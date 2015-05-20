@@ -37,7 +37,7 @@ Package.on_use(function(api) {
 		// Exporters
 		"extras/exporters/STLBinaryExporter.js",
 		"extras/exporters/STLExporterSaver.js",
-		"extras/exporters/STLEFileSaver.js",
+		"extras/exporters/STLFileSaver.js",
 		"extras/exporters/OBJExporter.js",
 
 		// Controls
