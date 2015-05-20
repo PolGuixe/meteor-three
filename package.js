@@ -6,9 +6,14 @@ Package.describe({
 });
 
 Package.on_use(function(api) {
-	api.versionsFrom("0.9.0");
+	//Dependencies
+    api.versionsFrom("0.9.0");
+    api.use('pfafman:filesaver@0.2.0');
+    //Exports
 	api.export("THREE");
     api.export("ThreeBSP");
+    api.export("saveSTL");
+    api.export("saveSceneSTL");
 
 	api.add_files([
 		// Core
@@ -31,7 +36,8 @@ Package.on_use(function(api) {
 
 		// Exporters
 		"extras/exporters/STLBinaryExporter.js",
-		"extras/exporters/STLExporter.js",
+		"extras/exporters/STLExporterSaver.js",
+		"extras/exporters/STLEFileSaver.js",
 		"extras/exporters/OBJExporter.js",
 
 		// Controls
