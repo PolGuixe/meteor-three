@@ -101,6 +101,9 @@ Package.on_use(function(api) {
       
         //Geometry modifiers
         "extras/geometry/ThreeCSG.js"
+        "extras/geometry/NURBSCurve.js"
+        "extras/geometry/NURBSSurface.js"
+        "extras/geometry/NURBSUtils.js"
       
 	]);
 });
