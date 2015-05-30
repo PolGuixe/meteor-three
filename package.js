@@ -100,9 +100,9 @@ Package.on_use(function(api) {
 		"extras/renderers/Projector.js",
       
         //Geometry modifiers
-        "extras/geometry/ThreeCSG.js"
-        "extras/geometry/NURBSCurve.js"
-        "extras/geometry/NURBSSurface.js"
+        "extras/geometry/ThreeCSG.js",
+        "extras/geometry/NURBSCurve.js",
+        "extras/geometry/NURBSSurface.js",
         "extras/geometry/NURBSUtils.js"
       
 	]);
